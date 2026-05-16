@@ -19,6 +19,7 @@ ARP is a new Android Recovery Project, powered by Flutter, based on [TWRP-16](ht
 ## Repositories
 
 - [aurora_recovery](https://github.com/AuroraRecoveryProject/aurora_recovery): Recovery's final running GUI program
+- [curl](https://github.com/AuroraRecoveryProject/curl): A command line tool and library for transferring data with URL syntax, add documentation for how to compile and support in TWRP environment
 
 ## Documentation
 
