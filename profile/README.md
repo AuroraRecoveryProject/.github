@@ -16,6 +16,10 @@ ARP is a new Android Recovery Project, powered by Flutter, based on [TWRP-16](ht
 - Shader support is unavailable in pure CPU rendering mode
 - More limitations to be added
 
+## Repositories
+
+- [aurora_recovery](https://github.com/AuroraRecoveryProject/aurora_recovery): Recovery's final running GUI program
+
 ## Documentation
 
-TWRP Compile Documentation: https://github.com/AuroraRecoveryProject/aurora_recovery/blob/312e8f808c5d54fda327d2bb3f9e6e8a6ebb241b/docs/TWRP%20%E7%BC%96%E8%AF%91%E8%AE%B0%E5%BD%95.md
+TWRP Compile Documentation: [TWRP 编译记录](https://github.com/AuroraRecoveryProject/aurora_recovery/docs/TWRP%20%E7%BC%96%E8%AF%91%E8%AE%B0%E5%BD%95.md)
