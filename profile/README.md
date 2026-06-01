@@ -1,5 +1,15 @@
 # Aurora Recovery Project (ARP)
 
+<p align="center">
+  <img width="100%" src="./banner.png">
+</p>
+
+<h1 align="center">Aurora Recovery Project</h1>
+
+<p align="center">
+Next-generation recovery environment powered by Flutter.
+</p>
+
 ARP is a new Android Recovery Project, powered by Flutter, based on [TWRP-16](https://github.com/TWRP-Test/android_bootable_recovery)
 
 ![](logo.png)
