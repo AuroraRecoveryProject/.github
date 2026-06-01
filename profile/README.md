@@ -3,6 +3,7 @@
 </p>
 
 ![](banner.png)
+![](logo.png)
 
 <h1 align="center">Aurora Recovery Project (AURP)</h1>
 
