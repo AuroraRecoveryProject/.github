@@ -1,9 +1,4 @@
-<p align="center">
-  <img width="100%" src="./banner_wide.png">
-</p>
-
 ![](banner.png)
-![](logo.png)
 
 <h1 align="center">Aurora Recovery Project (AURP)</h1>
 
