@@ -31,7 +31,7 @@ AURP 并不是把 Flutter 当作普通 Android App 来运行。Android Recovery 
 - **降低 TWRP GUI 开发与迭代成本**：传统 TWRP GUI 开发流程复杂，界面修改、资源调整和功能验证往往需要较长的编译、打包、刷入和重启周期。AURP 将 Flutter 的开发方式引入 recovery 场景，热重载、热重启可以快速搭建 UI。
 - **把成熟的 Flutter 生态带入 recovery 环境**：Flutter 的状态管理、国际化、FFI，以及 pub.dev 上大量成熟的第三方库。例如 [xterm.dart](https://github.com/TerminalStudio/xterm.dart) 能够有更完整的终端序列，对 vim/nano 等依赖大量终端序列的二进制支持更，可以直接使用 FFI 插件，例如 [flutter_pty](https://github.com/TerminalStudio/flutter_pty)。
 - **保留底层 native 能力**：通过 FFI 和 recovery 侧 native 组件，AURP 可以继续访问底层分区、设备节点、命令行工具和硬件接口，不把 recovery 能力封死在纯 UI 层。例如目前已经实现的亮度调节、设置持久化、ROM 刷入等能力，都是在 AURP 的 Flutter 界面之下复用和集成 TWRP 原有的底层实现，而不是简单照搬 TWRP 原始 GUI。
-- **支持多设备同步开发与 UI 适配**：通过配置 `custom_device.json`，当前框架可以同时开发多台设备，并将 UI 快速适配到不同设备上。
+- **支持多设备同步开发与 UI 适配**：通过配置 `custom_devices.json`，当前框架可以同时开发多台设备，并将 UI 快速适配到不同设备上。
 - **支持 CPU 或 GPU 渲染**：CPU 渲染不依赖任何 system/vendor 分区。**GPU 渲染依赖 vendor 分区，仅在 Snapdragon 8 Elite / 骁龙 8 Elite Gen 5 平台测试。**
 
 ## 项目组成
